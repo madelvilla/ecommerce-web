@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #880E4F;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+.logo {
+    height: 6rem;
+    margin: 5px 20px;
+}
+
+/* end of navigation bar */
+
+/* PHONE AND TABLET HAMBURGER BAR */
+.lines{
+    height: 100px;
+    width: 100px;
+    padding-right: 15px;
+}
+
+.hamburger-bar {
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    color: white;
+  }
+  
+  .ham-bar {
+    overflow: hidden;
+    background-color: #AD859A;
+    position: relative;
+  }
+  
+  .ham-bar #links {
+    display: none;
+  }
+  
+  .ham-bar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .ham-bar a.icon {
+    background: #880E4F;
+    display: block;
+    height: 139px;
+    width: 110px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #links a:hover {
+    background-color: #880E4F;
+    color: white;
+  }
+  
+  .active {
+    background-color: white;
+    color: white;
+  }
+
+/* END OF PHONE AND TABLET HAMBURGER BAR */
+
+body{
+    background-color: #D6C2CC;
+}
+
+/* HEADER */
+.product-header {
+    color: #5B0A35;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.site-name {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.site-description {
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+/* PRODUCTS GRID */
+
+#books-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 50px 30px 60px 30px;
+}
+
+.bookInfo {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+    background-color: white;
+    border: 2px solid #880E4F;
+    border-radius: 20px;
+    padding: 20px;
+    color: #880E4F;
+}
+
+.bookInfo img {
+    grid-column: 1;
+    max-width: 100%;
+    height: auto;
+}
+.bookInfo .text{
+    grid-column: 2;
+    padding: 10px;
+}
+
+.bookInfo .title{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 0 10px;
+}
+
+.bookInfo .author{
+    padding: 5px 0;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.bookInfo .genre{
+    padding: 5px 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.bookInfo .description{
+    padding: 5px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.bookInfo .price{
+    padding: 5px 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bookInfo .add{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #5B0A35;
+    color: #EAE0E6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*END PRODUCTS GRID */
+
+
+
+/* FOOTER  */
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #880E4F;
+    color: #E1C3D3;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* phone screen  */
+@media screen and (max-width: 800px) {
+    .navbar{
+        display: none;
+    }
+
+    #books-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* tablet screens  */
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+    .navbar{
+        display: none;
+    }
+    #books-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* desktop screen */
+@media screen and (min-width: 1024px) {
+    .hamburger-bar{
+        display: none;
+    }
+}
+

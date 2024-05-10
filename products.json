@@ -1,0 +1,111 @@
+{
+    "books": [
+        {
+            "image": "books/Maas.jpeg",
+            "title": "Throne of Glass",
+            "author": "Sarah J. Maas",
+            "genre": "Fantasy",
+            "description": "An assassin that must prove herself in order to gain her freedom, Celaena Sardothien has become one of the most iconic heroines in a fantasy series.",
+            "price": "$19.99"
+        },
+
+        {
+            "image": "books/lares.jpeg",
+            "title": "Sun of Blood and Ruin ",
+            "author": "Mariely Lares",
+            "genre": "Fantasy",
+            "description": "This reimagining of Zorro—featuring a heroic warrior sorceress—weaves Mesoamerican mythology and Mexican history two decades after the Spanish conquest into a swashbuckling, historical debut fantasy with magic, intrigue, treachery, and romance.",
+            "price": "$18.99"
+        },
+
+        {
+            "image": "books/jordan.jpeg",
+            "title": "The Wheel of Time",
+            "author": "Robert Jordan",
+            "genre": "Fantasy",
+            "description": "The Eye of the World, the first novel in the epic fantasy series, The Wheel of Time, follows Moiraine Damodred as she arrives in Emond's Field on a quest to find the one prophesized to stand against The Dark One.",
+            "price": "$18.99"
+        },
+
+        {
+            "image": "books/kuang.jpeg",
+            "title":"The Poppy War",
+            "author":"R. F. Kuang",
+            "genre":"Fantasy",
+            "description":"This captivating military fantasy, written with delicious precision, asks important questions about the collateral damage—both mental and physical—of wars and those who participate in them.",
+            "price":"$19.99"
+        },
+
+        {
+            "image": "books/liu.jpeg",
+            "title": "The Three-Body Problem",
+            "author": "Cixin Liu",
+            "genre": "Sci-Fi",
+            "description": "An alien invasion kicks off a riveting tale of unity and division that will make you reconsider what the fate of humanity really is.",
+            "price": "$18.99"
+        },
+
+        {
+            "image": "books/herbert.jpeg",
+            "title": "Dune",
+            "author": "Frank Herbert",
+            "genre": "Sci-Fi",
+            "description": "Frank Herbert addresses overarching themes of family politics, religion, environment and the all-encompassing temptation of power, all set against the backdrop of a futuristic civilization that, at times, can be unflinchingly prophetic",
+            "price": "$18.00"
+        },
+
+        {
+            "image": "books/butler.jpeg",
+            "title": "Parable of the Sower",
+            "author": "Octavia Butler",
+            "genre": "Sci-Fi",
+            "description": "Thought-provoking and brilliantly written, Parable of the Sower is a warning about what the future of Earth could look like if climate change is not taken seriously.",
+            "price": "$16.99"
+        },
+
+        {
+            "image": "books/wells.jpeg",
+            "title":"All Systems Red",
+            "author":"Martha Wells",
+            "genre":"Sci-Fi",
+            "description":"A tense science fiction adventure by Martha Wells that interrogates the roots of consciousness through Artificial Intelligence.",
+            "price":"$16.99"
+        },
+
+        {
+            "image": "books/yanagihara.jpeg",
+            "title": "A Little Life",
+            "author": "Hanya Yanagihara",
+            "genre": "Fiction",
+            "description": "A deeply profound, moving and emotional work that examines the intimate ties between families bound by choice rather than blood.",
+            "price": "$18.00"
+        },
+
+        {
+            "image": "books/miller.jpeg",
+            "title": "Circe",
+            "author": "Madeline Miller",
+            "genre": "Fiction",
+            "description": "A lyrical, action-packed dive into the origin of an unforgettable and unparalleled woman, Circe cements herself in the pantheon of stories that must not be missed.",
+            "price": "$18.99"
+        },
+
+        {
+            "image": "books/awad.jpeg",
+            "title": "Bunny",
+            "author": "Mona Awad",
+            "genre": "Fiction",
+            "description": "Through the fictional clique of the Bunnies, Awad offers a candid and barbed portrait of the nuances of femininity and societal expectations forced onto women. With dynamic characters and an ever-twisting plot, this is a masterpiece just waiting to be devoured.",
+            "price": "$18.00"
+        },
+
+        {
+            "image": "books/moreno-garcia.jpeg",
+            "title": "Mexican Gothic",
+            "author": "Silvia Moreno-Garcia",
+            "genre": "Fiction",
+            "description": "Something sinister is brewing beneath an isolated mansion in the Mexican countryside, and an ancient evil is about to be exposed.",
+            "price": "$17.00"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contactform.css" rel="stylesheet">
+    <title>In A Bind Books</title>
+</head>
+<body> 
+
+<!-- desktop navigation bar -->
+<nav class="navbar">
+    <a href="index.html"><img src="nav/logo.png" class="logo" alt="In A Bind Books logo"></a>
+    <div class="nav-links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contactform.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- end of navigation bar -->
+
+<!-- PHONE AND TABLET NAV BAR -->
+<div class="hamburger-bar">
+    <div class="ham-bar">
+        <a href="index.html" class="active"><img src="nav/logo.png" class="logo" alt="In A Bind Books logo"></a>
+        <div id="links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contactform.html">Contact Us</a>
+        </div>
+        <a href="#" class="icon" onclick="navFunction()">
+            <img src="nav/3lines.png" class="lines" alt="lines">
+        </a>
+    </div>
+</div>
+<!-- END ON PHONE AND TABLET NAV BAR -->
+
+<div class="contactform">
+    <form class="contact-form" id="contactForm" action="/">
+        <h2>Contact Us</h2>
+        <h4>We want to hear more from you.</h4>
+            <div class="input">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First Name">
+                    <div class="error"></div>
+            </div>
+            <div class="input">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    <div class="error"></div>
+            </div>
+
+            <div class="input">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="example@email.com">
+                    <div class="error"></div>
+            </div>
+            
+            <div class="input">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Tell us your book recommendations.."></textarea>
+                    <div class="error"></div>
+            </div>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+    
+
+
+
+<!-- footer -->
+<footer>
+    <div class="footer-container">
+        <div class="social-media">
+            <a href="https:/facebook.com"><img src="icons/facebook1.png" class="icons" alt="facebook icon"></a>
+            <a href="https:/tiktok.com"><img src="icons/tiktok.png" class="icons" alt="tiktok icon"></a>
+            <a href="https:/instagram.com"><img src="icons/instagram.png" class="icons" alt="instagram icon"></a>
+            <a href="https:/twitter.com"><img src="icons/twitterx.png" class="icons" alt="twitterx icon"></a>
+        </div>
+        <div class="copyright">
+            <p>&copy 2024 In A Bind Books. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
